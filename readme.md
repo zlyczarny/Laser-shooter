@@ -1,5 +1,5 @@
 
-Description
+##Description
 
 This is a multiplayer game where players scan names of different players. Each player enters their name at the start and earns points by scanning the names of other players.
 
@@ -9,11 +9,11 @@ The leaderboard updates in real time.
 
 The game supports leaderboard reset and features a cooldown mechanism to prevent spamming.
 
-Features
+##Features
 
 Add players: Players can enter their names to join the game.
 
-Scoring: Earn points by correctly guessing another player’s name.
+Scoring: Earn points by correctly guessing another playerâ€™s name.
 
 Hit effect: A visual effect is displayed for players who get hit.
 
@@ -21,7 +21,7 @@ Leaderboard: A real-time scoreboard displays player points.
 
 Leaderboard reset: Allows resetting the leaderboard via a button.
 
-Technologies
+##Technologies
 
 Frontend: HTML, CSS, JavaScript
 
@@ -29,9 +29,9 @@ Backend: Node.js with Socket.IO
 
 Real-time Communication: Socket.IO
 
-Installation
+##Installation
 
-1. Prerequisites
+#Prerequisites
 
 Before installation, ensure you have:
 
@@ -50,7 +50,7 @@ To start game server:
 node server.js
 
 
-Game Instructions
+##Game Instructions
 
 Open the game in your browser.
 
