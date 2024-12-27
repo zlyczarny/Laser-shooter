@@ -1,15 +1,15 @@
 
-##Description
+## Description
 
-This is a multiplayer game where players scan names of different players. Each player enters their name at the start and earns points by scanning the names of other players.
+This is a multiplayer game where players scan names of different players with QR scanners. Each player enters their name at the start and earns points by scanning the names of other players.
 
-Players whose names are guessed see a red screen hit effect.
+Players whose names are scanned see a red screen hit effect.
 
 The leaderboard updates in real time.
 
 The game supports leaderboard reset and features a cooldown mechanism to prevent spamming.
 
-##Features
+## Features
 
 Add players: Players can enter their names to join the game.
 
@@ -21,7 +21,7 @@ Leaderboard: A real-time scoreboard displays player points.
 
 Leaderboard reset: Allows resetting the leaderboard via a button.
 
-##Technologies
+## Technologies
 
 Frontend: HTML, CSS, JavaScript
 
@@ -29,9 +29,9 @@ Backend: Node.js with Socket.IO
 
 Real-time Communication: Socket.IO
 
-##Installation
+## Installation
 
-#Prerequisites
+### Prerequisites
 
 Before installation, ensure you have:
 
@@ -50,12 +50,12 @@ To start game server:
 node server.js
 
 
-##Game Instructions
+## Game Instructions
 
 Open the game in your browser.
 
 Enter your name and press Enter to join the game.
 
-Use the text input to guess the names of other players and earn points.
+Use QR code scanner to scann names of different users.
 
 Monitor the leaderboard to track your rank.
