@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laser Shooter</title> 
+    <link rel="stylesheet" href="style.css"> <!-- Dodamy styl retro -->
+</head>
+<body>
+
+<!-- Czerwona plama dla efektu trafienia -->
+<div id="hitEffect" class="hidden"></div>
+
+    <div id="playerInput">
+        <h1>Laser Shooter</h1> 
+        <p>Enter your name:</p>
+        <input type="text" id="name" placeholder="Your name">
+        <button id="startGame">START</button>
+    </div>
+
+    <div id="gameSection" class="hidden">
+        <h1>Laser Shooter</h1> 
+
+        <!-- Kontener dla inputa i ikony cooldown -->
+        <div class="input-container">
+            <input type="text" id="playerNameInput" placeholder="Other Player name">
+            <div id="cooldownSpinner" class="cooldown-spinner hidden"></div>
+        </div>
+
+        <button id="submitName">Shoot!</button>
+        <h3>Ranking:</h3>
+        <ul id="leaderboard"></ul>
+        <audio id="bongoSound" src="sounds/bongo-hit.mp3"></audio>
+
+        <button id="resetLeaderboard">Reset Ranking</button> <!-- Dodaj przycisk resetu -->
+
+    </div>
+
+
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
